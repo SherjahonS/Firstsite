@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>SBEW-2</title>
+</head>
+<style>
+    div.background {
+      background: lightblue url(rasm.jpg) no-repeat center;
+      background-size: cover;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      height: 700px;
+      width: 100%;
+    }
+
+    div.transbox {
+      background-color: rgba(65, 154, 233, 0.4);
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
+      height: 100%;
+      width: 100%;
+      font-weight: bold;
+      z-index: 0;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        margin-top: 15rem;
+        color: aliceblue;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+    }
+    .transbox>button:hover{
+        background-color: greenyellow;
+    }
+    #image{
+        border: solid 1px black;
+        padding: 10px;
+        box-shadow: 5px 10px gray; 
+    }
+    </style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <div class="container-fluid">
+        <a class="navbar-brand" href="#">Robust.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Overview</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Companents
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Docs
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                  <button class="nav-link btn btn-outline-primary" style="color: rgb(33, 70, 192);" aria-current="page" href="#"">Purchase Now</button>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </div>
+       </div>
+    </nav>
+    <div class="background">
+        <div class="transbox">
+            <h1 class="card-title">Robust IU Kit</h1>
+            <p class="card-text">Robust is a premium theme built with Bootstrap. The theme<br> 
+                 is fully customizable & can be used for any type of<br> application.</p>
+                 <button class="btn btn-success" type="submit" style="display:flex;  margin-left: 40rem; z-index: 1;">Get Started</button>
+                 <a class="btn btn-outline-light" type="submit" style="position: absolute; transform:translate(50rem,-2.3rem) ;">Components</a>
+        </div>
+    </div>
+       <section>
+      <div style=" width: 100%; height: 50rem; ">  <h2 style=" color: black; position: absolute; transform: translate(25rem,3rem);">Discover our<br> landing,app & blog<br>pages</h2>
+        <h4 style="position: absolute; transform: translate(46rem,3rem);">Robust includes various demo pages for building<br> your custom app, blog or landing page. All code is<br> handwritten, all our components are optimized for<br> desktop, tablet and mobile.</h4> 
+        <div class="row" >
+            <div class="card" style="width: 23rem; display: flex; margin-top: 15rem; margin-left: 13rem;">
+                <img src="./landing-2.png" class="card-img-top" alt="50" id="image">
+                <div class="card-body">
+                  <h5 class="card-title">landing</h5>
+                  <p class="card-text " style="color: black;">Make your app look outstanding between the crowd using our wide variety of page components.</p>
+                  <ol class="breadcrumb"  style="--bs-breadcrumb-divider: '>';">
+                    <li class="breadcrumb-item"><a href="#">Explore Pages</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"></li>
+                  </ol>
+                </div>
+              </div>
+              <div class="card" style="width: 23rem; display: flex; margin-top: 15rem; margin-left: 3rem;">
+                <img src="./social-2.png" class="card-img-top" alt="50" id="image">
+                <div class="card-body">
+                  <h5 class="card-title">Dashboard</h5>
+                  <p class="card-text " style="color: black;">Create the best possible user experience for your customers using our app components.</p>
+                  <ol class="breadcrumb"  style="--bs-breadcrumb-divider: '>';">
+                    <li class="breadcrumb-item"><a href="#">Explore Pages</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"></li>
+                  </ol>
+                </div>
+              </div>
+              <div class="card" style="width: 23rem; display: flex; margin-top: 15rem; margin-left: 3rem;">
+                <img src="./careers.png" class="card-img-top" alt="50" id="image">
+                <div class="card-body">
+                  <h5 class="card-title">Pages</h5>
+                  <p class="card-text " style="color: black;">Discover our wide variety of pages including blog, about, contact and error pages.</p>
+                  <ol class="breadcrumb"  style="--bs-breadcrumb-divider: '>';">
+                    <li class="breadcrumb-item"><a href="#">Explore Pages</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"></li>
+                  </ol>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="body bg-light pt-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 mr-auto align-items-center mb-5">
+                <div class="my-4">
+                    <h3>Multi-device support</h3>
+                    <p class="text-dark">All pages inside Robust are optimized for mobile, tablet and desktop. It doesn't matter what device you're using.</p>
+                </div>
+                <div class="my-4">
+                    <h3>Well-documented</h3>
+                    <p class="text-dark">All Robust's components are well-documented and a Quick Start document is included to speed things up on your side.</p>
+                </div>
+                <div class="my-4">
+                    <h3>3rd party plugins</h3>
+                    <p class="text-dark">Robust comes with multiple 3rd party plugins that are easy to use and and combine well with other components.</p>
+                </div>
+            </div>
+            <div class="col-md-5 ml-auto mt-4">
+                <img src="./fon.webp" class="img-fluid" alt="iPad">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="bg-white py-7">
+        <div class="container">
+  
+          <div class="row mb-6">
+            <div class="col-md-3 ml-auto">
+              <h2>Enormous collection of elements</h2>
+            </div>
+            <div class="col-md-5 mr-auto">
+              <p class="lead text-dark">
+                Robust is a premium theme built with Bootstrap 4, the most popular UI framework. The theme is fully responsive and customizable and can be used for any type of web application.
+              </p>
+            </div>
+          </div>
+  
+          <div class="row mt-5">
+            <div class="col-md-4">
+              <div class="media">
+                <div class="icon mr-3">
+                  <i class="far fa-id-badge"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4">Responsive</h3>
+                  <p class="text-dark text-left">
+                    With mobile, tablet &amp; desktop support it doesn't matter what device you're using. Robust is responsive in all browsers.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="media">
+                <div class="icon mr-3 bg-warning">
+                  <i class="far fa-hand-scissors"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4">Customizable</h3>
+                  <p class="text-dark text-left">
+                    You don't need to be an expert to customize Robust. Our code is very readable and well documented.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="media">
+                <div class="icon mr-3 bg-danger">
+                  <i class="far fa-camera"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4">Quick support</h3>
+                  <p class="text-dark text-left">
+                    Robust is supported by specialists who provide quick and effective support. Usually an email reply takes &lt;24h.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ <script src="./js/bootstrap.js"></script>
+</body>
+</html>
